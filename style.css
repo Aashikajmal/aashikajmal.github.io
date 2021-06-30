@@ -1,0 +1,475 @@
+body{
+    margin: 0;
+    padding: 0;  
+}
+h2{
+     color: tomato;
+    font-weight: bold;
+}
+
+.navbar .navbar-brand{
+    color: white;
+    font-weight: bold;
+  
+}
+.navbar .nav-item a{
+    color: white;
+    font-weight: bold;   
+}
+
+.main{
+    position: relative;
+    background:url("img/s.jpg") center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+   -webkit-z-index: -1;    
+    -ms-z-index: -1; 
+    -moz-z-index: -1; 
+}
+.main .main-content{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+.main-content h1{
+   
+    text-align: center;
+    color: tomato;
+    font-size: 4rem;
+}
+.main-content p{
+    text-align: center;
+    color: white;
+}
+.about{
+    margin-top: 35px;
+}
+.about .about-main{
+   margin-top: 20px;
+}
+.about .sec1 img{
+width: 100%;
+height: 100%;
+}
+
+.about .sec2{
+   margin-top: 40px;
+    padding: 20px 20px;
+}
+.about .sec2 .color{
+    color: dodgerblue;
+    font-weight: 500;
+}
+.about h2{
+    text-align: center;
+}
+
+.skills h2,p{
+    text-align: center;
+}
+.skills{
+    padding: 60px 0px;
+}
+.skills .skills-main{
+    margin-top: 30px;
+}
+.services{
+    margin-top: 10px;
+    background-color:#f5f5f5;
+   padding: 20px 0px;
+    padding-bottom: 50px;
+   
+}
+.services .services-main{
+    margin-top: 30px;
+}
+.service-sec{
+   
+}
+.services .cards{
+    position: relative;
+    background-color: white;
+    margin: auto;
+    height: 350px;
+    width: 300px;
+   padding: 5px;
+   border-radius: 10px;
+   box-shadow: 2px 2px 5px lightgray;
+}
+.services .cards .image{
+    position: relative;
+    top: 20px;
+    border-radius: 50%;
+    margin: auto;
+    width: 110px;
+    height: 110px;
+    border:10px solid dodgerblue;
+}
+.services .cards .icon{
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%,-50%);
+}
+
+.services .cards .title{
+    margin-top: 40px;
+}
+.services .cards .text{
+    margin-top: 20px;
+}
+.services h2,p,h4{
+    text-align: center;
+}
+
+.portfolio{
+ margin-top: 30px;
+}
+.portfolio .portfolio-main{
+   padding: 20px 0px;
+}
+.portfolio h2{
+    text-align: center;
+}
+.left-wrap{
+    float: right;
+}
+.right-wrap{
+    float: left;
+}
+.portfolio-wrap{
+      position: relative;
+    
+} 
+
+.portfolio-info{  
+ opacity: 0;
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  bottom: 0;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+}
+.portfolio-wrap:hover .portfolio-info {
+  opacity: 1;
+  bottom: 20px;
+}
+
+.portfolio-wrap:hover img{
+   opacity: 0.7;
+}
+.portfolio-info a{
+   
+}
+.portfolio-wrap img{
+ border-radius: 5px;
+    width: 360px;
+        height:270px;
+}
+
+.contact{
+   
+    
+}
+.address-sec{
+    padding: 15px 0px;
+}
+.address-sec span{
+    padding-left: 10px;
+}
+.address i{
+    color: cornflowerblue;
+}
+
+.contact input{
+    margin: 10px 0px;
+}
+.contact #comment,button{
+    margin: 20px 0px;
+}
+.contact h2{
+    padding: 10px 0px;
+    text-align: center;
+}
+.contact-sec1 {
+    padding: 35px 15px;
+}
+.contact-sec2 button{
+    text-align: center;
+}
+.form-cmd{
+text-align: center;
+}
+.form-cmd button{
+    padding: 7px 25px;
+    border-radius: 25px;
+}
+footer h2{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #d4e8ff;
+   
+    margin-top: 20px;
+}
+footer .footer-nav{
+
+}
+.footer-nav ul{
+    list-style-type: none;
+}
+.footer-nav ul li{
+    text-align: center;
+    padding: 3px 5px;
+display: inline;
+}
+.footer-nav img{
+    width: 35px;
+}
+footer .copy-rights a{
+   
+}
+
+@media only screen and (max-width: 1200px){
+   
+.about .sec1 img{
+width: 100%;
+height: 100%;
+}
+
+.about .sec2{
+   margin-top: 20px;
+    padding: 10px 10px;
+}
+.about .sec2 .color{
+    color: dodgerblue;
+    font-weight: 500;
+}
+    .fa-3x{
+        font-size: 35px;
+    }
+}
+
+
+    @media only screen and (max-width: 1000px){
+       
+        
+    .about .sec2{
+   margin-top: 30px;
+    padding: 5px 0px;
+}
+         .about .sec2 h4{
+             font-size: 18px;
+        }
+        .services .cards{
+    height: 250px;
+    width: 200px;
+   padding: 5px;
+   border-radius: 10px;
+   box-shadow: 2px 2px 5px lightgray;
+}
+.services .cards .image{
+    position: relative;
+    top: 20px;
+    border-radius: 50%;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border:10px solid dodgerblue;
+}
+.services .cards .title{
+    margin-top: 30px;
+}
+.services .cards .text{
+    margin-top: 10px;
+}
+.services p,h4{
+   font-size: 80%;
+}
+    .portfolio-wrap img{
+ border-radius: 5px;
+    width: 300px;
+        height:85%;
+}   
+        .left-wrap{
+    float: right;
+}
+.right-wrap{
+    float: left;
+}
+.portfolio-wrap{
+      position: relative;
+    
+} 
+
+.portfolio-info{  
+ opacity: 0;
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  z-index: 3;
+    width: 230px;
+  transition: all ease-in-out 0.3s;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+}
+.portfolio-wrap:hover .portfolio-info {
+  opacity: 1;
+  bottom: 15px;
+}
+        .fa-3x{
+        font-size: 15px;
+    }
+  }
+
+        
+
+
+@media only screen and (max-width: 768px){
+        
+     .navbar{
+   position: fixed;
+       top: 0;
+         margin-top: -20px;
+       
+}
+    
+.about .sec1{
+    text-align: center;
+    margin: 0 auto;
+width: 90%;
+height: 90%;
+}
+.about .sec2{
+    
+   margin-top: 10px;
+    padding: 5px 20px;
+}
+    
+.skills{
+    padding: 30px 0px;
+}
+        .skills .skill-sec2{
+            margin-top: 25px;
+        }
+.skills .skills-main{
+    margin-top: 30px;
+}
+    .services .cards{
+    height: 220px;
+    width: 175px;
+   padding: 5px;
+  
+}
+.services .cards .image{
+    position: relative;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+    
+}
+.services .cards .title{
+    margin-top: 20px;
+}
+.services .cards .text{
+    margin-top: 5px;
+}
+.services p,h4{
+   font-size: 75%;
+}
+      .portfolio-wrap img{
+ border-radius: 5px;
+    width: 65%;
+        height:65%;
+}   
+    
+         .left-wrap{
+    float: none;
+             text-align: center;
+}
+.right-wrap{
+   float: none;
+             text-align: center;
+}
+        
+.portfolio-wrap{
+      position: relative;
+    
+} 
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+      
+    .portfolio-info{
+        left: 120px;
+    }
+.portfolio-wrap:hover .portfolio-info {
+  opacity: 1;
+  bottom: 15px;
+}
+    .portfolio-fill img{
+        margin-top: 30px;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: 560px){
+        .portfolio-info{
+        left: 80px;
+            width: 200px;
+            height: 65px;
+    }
+    .services h2{
+        margin-bottom: -15px;
+    }
+    
+      .services .cards{
+          margin-top: 20px;
+    height: 260px;
+    width: 200px;
+   padding: 5px;
+  
+}
+.services .cards .image{
+    position: relative;
+    top: 20px;
+    width: 60px;
+    height: 60px;
+    
+}
+.services .cards .title{
+    margin-top: 30px;
+}
+.services .cards .text{
+    margin-top: 15px;
+}
+.services p,h4{
+   font-size: 80%;
+}
+        .fa-3x{
+        font-size: 20px;
+    }
+
+}
+<-----------Project_Details------------>
+
+.modal-body{
+    float: left;
+    border-left: 1px solid red;
+    background-color: aqua;
+}
+
+
+
+<------------Responsive 960px -------------->
