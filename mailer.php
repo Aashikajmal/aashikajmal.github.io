@@ -10,8 +10,9 @@ if(isset($_GET['submit']))
 	$to = "aashikajmal@gmail.com";
 //$subject = ;
 //$txt = "Hello world!";
-
-mail($to,$subject,$message);
+$headers = "From: webmaster@example.com" . "\r\n" .
+"CC: aashikajmal@gmail.com";
+mail($to,$subject,$message,$headers);
 
 }
 ?>
