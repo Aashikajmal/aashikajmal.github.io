@@ -1,11 +1,11 @@
 <?php
 
-if(isset($_POST['submit']))
+if(isset($_GET['submit']))
 {
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $subject = $_POST['subject'];
-    $message = $_POST['comment'];
+    $name = $_GET['name'];
+    $email = $_GET['email'];
+    $subject = $_GET['subject'];
+    $message = $_GET['comment'];
    
 	$to = "aashikajmal@gmail.com";
 //$subject = ;
